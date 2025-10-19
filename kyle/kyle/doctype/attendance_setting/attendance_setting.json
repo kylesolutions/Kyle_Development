@@ -1,0 +1,87 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-08-07 10:38:29.599787",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "make_attendance_present_buffer_hour",
+  "make_attendance_half_day_buffer_hour",
+  "column_break_aeww",
+  "email_for_send_attendance_alert",
+  "section_break_jlpy",
+  "from_date",
+  "mark_attendance",
+  "column_break_xngs",
+  "to_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "make_attendance_present_buffer_hour",
+   "fieldtype": "Int",
+   "label": "Make Attendance Present Buffer Hour"
+  },
+  {
+   "fieldname": "make_attendance_half_day_buffer_hour",
+   "fieldtype": "Int",
+   "label": "Make Attendance Half Day Buffer Hour"
+  },
+  {
+   "fieldname": "email_for_send_attendance_alert",
+   "fieldtype": "Data",
+   "label": "Email for Send Attendance Alert"
+  },
+  {
+   "fieldname": "from_date",
+   "fieldtype": "Date",
+   "label": "From Date"
+  },
+  {
+   "fieldname": "to_date",
+   "fieldtype": "Date",
+   "label": "To Date"
+  },
+  {
+   "fieldname": "column_break_aeww",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_jlpy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_xngs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "mark_attendance",
+   "fieldtype": "Button",
+   "label": "Mark Attendance"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2025-08-07 10:48:36.909569",
+ "modified_by": "Administrator",
+ "module": "Kyle",
+ "name": "Attendance Setting",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
